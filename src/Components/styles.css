@@ -1,0 +1,147 @@
+/* global */
+html * {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, span{
+    font-family: 'Merriweather', serif;
+    color: #223c50;
+}
+
+p, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header.js */
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #223c50;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem 7rem 0 7rem;
+    box-shadow: 0 0 0.3rem 0;
+    z-index: 5000;
+    height: 3rem;
+}
+
+.header-left {
+    grid-column: 1;
+    background-color: #223c50;
+}
+
+.header-name {
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: oblique;
+    background-color: #223c50;
+    border: 0;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.header-name:hover {
+    color: #7ad5d0;
+    cursor: pointer;
+}
+
+.header-middle {
+    background-color: #223c50;
+    grid-column: 2;
+}
+.nav-middle-btn {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    background-color: #223c50;
+    border: 0;
+    padding-right: 2rem;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.nav-middle-btn:hover {
+    color: #7ad5d0;
+    cursor: pointer;
+    background-color: #223c50;
+}
+
+.nav-middle-btn#add-property {
+    color: #7ad5d0 !important;
+}
+
+.header-right {
+    grid-column: 3;
+    justify-content: center;
+    background-color: #223c50;
+}
+
+.login-btn {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    background-color: #223c50;
+    border: 0;
+    height: 100%;
+    /* margin-left: 7rem; */
+    width: 10rem;
+}
+
+.login-btn:hover {
+    color: #7ad5d0;
+    cursor: pointer;
+}
+
+/* Home.js */
+
+.home {
+    margin-top: 0;
+    background-color: #223c50;
+    height: 85vh;
+    box-shadow: 0 0 0.3rem 0;
+}
+
+.home h1 {
+    color: white;
+    background-color: #223c50;
+    padding: 15% 0 0 15%;
+    font-size: 3rem;
+}
+
+.home button {
+    background-color: #223c50;
+    color: white;
+    font-size: larger;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    margin: 5% 0 0 15%;
+    transition: 0.3s;
+}
+
+.home button:hover {
+    color: #7ad5d0;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link {
+    padding: 0.8rem;
+    text-decoration: none;
+    color: #223c50b7;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Listings.js */

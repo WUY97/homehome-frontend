@@ -11,13 +11,13 @@
     "@emotion/styled": "^11.10.4",
     "@mui/icons-material": "^5.10.3",
     "@mui/material": "^5.10.5",
-    "@mui/styled-engine-sc": "^5.10.6",
-    "@mui/system": "^5.10.7",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "check-peer-dependencies": "^4.1.0",
+    "depcheck": "^1.4.3",
+    "eslint-config-react-app": "^7.0.1",
     "immer": "^9.0.15",
     "leaflet": "^1.8.0",
     "react": "^18.2.0",
@@ -25,7 +25,7 @@
     "react-leaflet": "^4.0.2",
     "react-router-dom": "^6.4.0",
     "react-scripts": "5.0.1",
-    "styled-components": "^5.3.6",
+    "typescript": "^4.8.4",
     "use-immer": "^0.7.0",
     "web-vitals": "^2.1.4"
   },
@@ -52,5 +52,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WUY97/homehome-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WUY97/homehome-frontend/issues"
+  },
+  "homepage": "https://github.com/WUY97/homehome-frontend#readme"
 }
